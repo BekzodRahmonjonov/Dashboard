@@ -64,11 +64,11 @@ export default {
 </script>
 
 <style lang="scss">
-    @media (min-width: 600px) and (max-width: 650px) {
-      #line-chart {
-        width: 460px !important;
-      }
-    }
+    // @media (min-width: 600px) and (max-width: 650px) {
+    //   #line-chart {
+    //     width: 460px !important;
+    //   }
+    // }
     // @media screen and (max-width: 600px) {
     //   #line-chart {
     //     width: 410px !important;

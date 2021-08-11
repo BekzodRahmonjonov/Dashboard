@@ -78,15 +78,34 @@ export default {
   .home {
     display: flex;
   }
+  .container {
+    height: 76vw;
+  }
+  @media screen and (max-width: 1500px) {
+    .container {
+      height: 82vw;
+    }
+  }
+  @media screen and (max-width: 1500px) {
+    .container {
+      height: 90vw;
+    }
+  }
   @media screen and (max-width: 1300px) {
     .intro-card {
       width: 220px;
+    }
+    .container {
+      height: 95vw;
     }
   }
   @media screen and (max-width: 1200px) {
     .intro-card {
       width: 200px;
       padding: 10px 18px;
+    }
+    .container {
+      height: 100vw;
     }
     .body-conditions, .appointment-table__conditions {
       display: none;
@@ -108,6 +127,9 @@ export default {
     }
   }
   @media screen and (max-width: 1100px) {
+    .container {
+      height: 110vw;
+    }
     .intro-card {
       width: 180px;
     }
@@ -186,11 +208,11 @@ export default {
       overflow: hidden;
       transform: translate(-6px);
     }
-  }
-  .chart {
-    width: 600px;
-    margin: 0 auto;
-    margin-top: 30px;
+    .chart {
+      width: 600px;
+      margin: 0 auto;
+      margin-top: 30px;
+    }
   }
   @media screen and (max-width: 700px) {
     .avatar-name, .appointment-table__name {
